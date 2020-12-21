@@ -3,7 +3,24 @@
     <link rel="stylesheet" type="text/css" href="./main.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="codebox">
+        <h1 id="welcome">Leonhards' Secret Santa</h1>
+        <div id="explanation">If I gave you a code and a password, you can see what I wanted to share with you!</div> 
+        <br><br>
+        <form>
+            <label class="mylabel" for="code">Gift-Code:</label>
+            <input class="mytextfield" type="text" id="code" name="code" value="your-code-goes-here"><br><br>
+            <label class="mylabel" for="password">Password:</label>
+            <input class="mytextfield" type="password" id="password" name="password"><br><br>
+            <input type="submit" id="revealgift" value="Show me!">
+        </form>
+    </div>
+    <div class="giftbox">
+        <h1 id="giftheader"> Your Gift:</h2>
+        <br>
+        <div id="gifttext">What I always wanted to tell you</div>
+    </div>
+    <div  class="wrapper">
         <div class="snow layer1 a"></div>
         <div class="snow layer1"></div> 
         <div class="snow layer2 a"></div>
@@ -11,8 +28,5 @@
         <div class="snow layer3 a"></div>
         <div class="snow layer3"></div>
    </div>
-    <div>
-        Hello Santa! 
-    </div>
 </body>
 </html>

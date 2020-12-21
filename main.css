@@ -1,10 +1,83 @@
 html, body {
-  margin: 0; }
+  margin: 0; 
+  font-family: Tahoma;  
+}
+
+#welcome {
+  font-style: italic;
+  font-size: 40;
+}
+
+.codebox {
+  z-index: 1;
+  position: fixed;
+  width: 35%;
+  height: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 10%;
+  text-align: center;
+  text-orientation: sideways;
+  background-color: rgba(240, 248, 255, 0.80);
+  box-shadow: azure;
+  background-blend-mode: color-dodge;
+  border-radius:10px 10px 10px 10px;
+}
+
+#giftheader {
+  font-style: italic;
+  font-size: 40;
+}
+
+.mytextfield {
+  border-radius:5px 5px 5px 5px;
+  min-width: 30%;
+  min-height: 10%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+}
+
+.mylabel {
+  margin-right: 10px;
+}
+
+#revealgift {
+  margin: 10px,10px,10px,10px;
+  border-radius:5px 5px 5px 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  width: 20%;
+  height: 10%;
+  font-size: larger;
+  box-shadow: azure;
+}
+
+.giftbox {
+  z-index: 1;
+  position: fixed;
+  width: 35%;
+  height: 25%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 30%;
+  text-align: center;
+  text-orientation: sideways;
+  background-color: rgba(240, 248, 255, 0.80);
+  box-shadow: azure;
+  background-blend-mode: color-dodge;
+  border-radius:10px 10px 10px 10px;
+}
 
 .wrapper {
+  z-index: -1;
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(farthest-corner at 30vw 20vh, #7397a1 1%, #3f2c41 100%); }
+  background: radial-gradient(farthest-corner at 30vw 20vh, #7397a1 1%, #3f2c41 100%); 
+}
 
 .snow {
   border-radius: 50%;
