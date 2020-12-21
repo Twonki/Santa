@@ -1,13 +1,15 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="./gifts.js"></script>
+    <script src="./revealer.js"></script>
 </head>
 <body>
-    <div class="codebox">
+    <div id="codebox" class="codebox">
         <h1 id="welcome">Leonhards' Secret Santa</h1>
         <div id="explanation">If I gave you a code and a password, you can see what I wanted to share with you!</div> 
         <br><br>
-        <form>
+        <form onsubmit="submitGiftCode();return false">
             <label class="mylabel" for="code">Gift-Code:</label>
             <input class="mytextfield" type="text" id="code" name="code" value="your-code-goes-here"><br><br>
             <label class="mylabel" for="password">Password:</label>
@@ -15,7 +17,7 @@
             <input type="submit" id="revealgift" value="Show me!">
         </form>
     </div>
-    <div class="giftbox">
+    <div id="giftbox" class="giftbox">
         <h1 id="giftheader"> Your Gift:</h2>
         <br>
         <div id="gifttext">What I always wanted to tell you</div>
