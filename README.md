@@ -1,6 +1,6 @@
 # Little Santa
 
-Hi! 
+Hi! :octocat:
 
 This repository is intended to be a little christmass secret for some of my friends.
 Usually, I come along and hand out huge bags of presents for all I love, but this year I am stuck in quarantine. 
